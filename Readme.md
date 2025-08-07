@@ -94,7 +94,7 @@ VIDEO_EXTENSIONS="mp4 mkv avi mov wmv flv webm m4v"
 
 ### Example 1: Process All Series
 ```bash
-$ ./tv_renamer.sh
+$ ./TV_Series_Renamer.sh
 Available series:
 0) Process ALL series
 1) breaking-bad
@@ -151,8 +151,8 @@ game-of-thrones/
 
 ### Permission errors
 ```bash
-chmod +x tv_renamer.sh
-sudo ./tv_renamer.sh  # if files are owned by root
+chmod +x TV_Series_Renamer.sh
+sudo ./TV_Series_Renamer.sh  # if files are owned by root
 ```
 
 ### Unsupported naming pattern
