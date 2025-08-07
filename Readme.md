@@ -52,13 +52,15 @@ Series Name/
 
 1. **Download the script:**
    ```bash
-   curl -O https://raw.githubusercontent.com/yourusername/tv-renamer/main/tv_renamer.sh
-   chmod +x tv_renamer.sh
+   git clone https://github.com/l1n00/FixJellySeries.git
+   cd FixJellySeries
+   chmod +x TV_Series_Renamer.sh
+   ./TV_Series_Renamer.sh
    ```
 
 2. **First run (safe mode):**
    ```bash
-   ./tv_renamer.sh
+   ./TV_Series_Renamer.sh
    ```
    The script starts in `DRY_RUN=true` mode - it shows what it would do without making changes.
 
